@@ -14,9 +14,6 @@ import it.jaschke.alexandria.R;
 import it.jaschke.alexandria.data.AlexandriaContract;
 import it.jaschke.alexandria.services.DownloadImage;
 
-/**
- * Created by saj on 11/01/15.
- */
 public class BookListAdapter extends CursorAdapter {
 
 
@@ -32,8 +29,8 @@ public class BookListAdapter extends CursorAdapter {
         }
     }
 
-    public BookListAdapter(Context context, Cursor c, int flags) {
-        super(context, c, flags);
+    public BookListAdapter(Context context, Cursor c) {
+        super(context, c, 0);
     }
 
     @Override
