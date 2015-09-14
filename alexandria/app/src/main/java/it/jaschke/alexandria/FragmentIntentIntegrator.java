@@ -2,7 +2,6 @@ package it.jaschke.alexandria;
 
 import android.content.Intent;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 

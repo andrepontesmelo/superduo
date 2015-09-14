@@ -11,9 +11,6 @@ import java.util.Set;
 import it.jaschke.alexandria.data.AlexandriaContract;
 import it.jaschke.alexandria.data.DbHelper;
 
-/**
- * Created by saj on 23/12/14.
- */
 public class TestDb extends AndroidTestCase {
     public static final String LOG_TAG = TestDb.class.getSimpleName();
 
