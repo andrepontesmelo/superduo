@@ -4,9 +4,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by yehya khaled on 2/26/2015.
- */
 public class ViewHolder
 {
     public TextView home_name;
